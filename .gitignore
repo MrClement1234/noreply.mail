@@ -1,0 +1,17 @@
+node_modules/
+.env
+.env.local
+.DS_Store
+*.log
+dist/
+build/
+client/build/
+client/node_modules/
+.vscode/
+.idea/
+*.swp
+*.swo
+.env.production
+.firebase/
+.next/
+out/
