@@ -9,18 +9,11 @@ const trezorTemplate = require('./trezorTemplate');
 const phantomTemplate = require('./phantomTemplate');
 const exodusTemplate = require('./exodusTemplate');
 const raydiumTemplate = require('./raydiumTemplate');
-const magicedenTemplate = require('./magicedenTemplate');
-const solflareTemplate = require('./solflareTemplate');
-const rainbowTemplate = require('./rainbowTemplate');
-const imtokenTemplate = require('./imtokenTemplate');
-const argentTemplate = require('./argentTemplate');
-const loopringTemplate = require('./loopringTemplate');
-const walletconnectTemplate = require('./walletconnectTemplate');
-const atomicTemplate = require('./atomicTemplate');
-const kucoinTemplate = require('./kucoinTemplate');
-const gateoTemplate = require('./gateoTemplate');
-const okxTemplate = require('./okxTemplate');
-const huobiTemplate = require('./huobiTemplate');
+const safepalTemplate = require('./safepalTemplate');
+const tronlinkTemplate = require('./tronlinkTemplate');
+const coindexTemplate = require('./coindexTemplate');
+const bitgetTemplate = require('./bitgetTemplate');
+const bitpayTemplate = require('./bitpayTemplate');
 
 module.exports = {
   binance: binanceTemplate,
@@ -34,16 +27,9 @@ module.exports = {
   phantom: phantomTemplate,
   exodus: exodusTemplate,
   raydium: raydiumTemplate,
-  magiceden: magicedenTemplate,
-  solflare: solflareTemplate,
-  rainbow: rainbowTemplate,
-  imtoken: imtokenTemplate,
-  argent: argentTemplate,
-  loopring: loopringTemplate,
-  walletconnect: walletconnectTemplate,
-  atomic: atomicTemplate,
-  kucoin: kucoinTemplate,
-  gateo: gateoTemplate,
-  okx: okxTemplate,
-  huobi: huobiTemplate
+  safepal: safepalTemplate,
+  tronlink: tronlinkTemplate,
+  coindex: coindexTemplate,
+  bitget: bitgetTemplate,
+  bitpay: bitpayTemplate
 };
